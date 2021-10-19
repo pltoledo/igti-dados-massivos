@@ -1,1 +1,1 @@
-gcloud dataproc jobs submit pyspark --cluster cluster-igti --region us-central1 --py-files gs://{bucket}/scripts/src.zip gs://{bucket}/scripts/spark_app.py -- cloud
+gcloud dataproc jobs submit pyspark --cluster cluster-igti --region us-central1 --py-files gs://edc-bootamp-data/scripts/src.zip gs://edc-bootamp-data/scripts/spark_app.py -- cloud
