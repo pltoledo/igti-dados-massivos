@@ -130,7 +130,6 @@ dmypy.json
 
 material_didatico/*
 slides/*
-data/*
 metastore_db/*
 conf/*
 respostas/*

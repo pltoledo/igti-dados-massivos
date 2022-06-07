@@ -1,9 +1,7 @@
 services:
   webapp:
     container_name: pyspark_notebook
-    build:
-      context: .
-      dockerfile: ../src/hermione_spark/pyspark_notebook/Dockerfile
+    build: .
     image: pyspark_notebook
     command: start.sh jupyter lab --LabApp.token=''
     ports:

@@ -37,7 +37,8 @@ if __name__ == "__main__":
         .load('data/btc_stream/raw')
     )
     query = (
-        df.writeStream
+        df
+        .writeStream
         .foreachBatch(foreachBatch_save)
         .start()
     )
